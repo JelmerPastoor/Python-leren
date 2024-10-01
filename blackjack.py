@@ -118,8 +118,7 @@ def main():
     while play_again.strip().upper() == 'Y':
         cards_dict = make_deck()
         game(cards_dict)
-        play_again = input(f'Would you like to play again? [Y/N]: ').strip().upper()
-        print(' ')
+        play_again = input(f'\nWould you like to play again? [Y/N]: ').strip().upper()
     print('Thank you for playing!')
 
 main()
