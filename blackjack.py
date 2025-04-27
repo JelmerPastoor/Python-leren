@@ -122,4 +122,3 @@ def main():
     print('Thank you for playing!')
 
 main()
-# https://www.askpython.com/python/examples/blackjack-game-using-python
